@@ -10,10 +10,12 @@
 }
 .quotes{
   background-color: antiquewhite;
-  border-bottom: 2px solid grey;
-  border-right: 2px solid grey;
+  border-bottom: 4px solid grey;
+  border-right: 4px solid grey;
  width: 600px;
  height: 200px;
+ transition: .5s;
+ box-shadow: 0px 0px 10px white ;
 
 }
 .quoteText{
@@ -41,10 +43,15 @@
   color: white;
   padding: 1rem;
  margin-left: 500px;
+
  
 }
 .button:hover{
   box-shadow: 5px 5px 5px gray;
  transform: translatey(-5px);
   transition: 1s;
+}
+
+.button:active{
+  transform: translatey(4px);
 }

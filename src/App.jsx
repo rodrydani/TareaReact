@@ -19,7 +19,7 @@ function App() {
       <div className="quotes">
       <h2 className='quoteText'><i class="fa-solid fa-quote-left"></i>{" "} {quotes[quotesRand].quote}</h2>
      <h3 className='author'>{quotes[quotesRand].author}</h3>
-     <button style={{background: colors[colorsRand]}}  className='button' onClick={ changeQuote}> <i class="fa-solid fa-chevron-right"></i> </button>
+     <button style={{background: colors[colorsRand]}}  className='button' onClick={changeQuote}> <i class="fa-solid fa-chevron-right"></i> </button>
       </div>
     </div>
   )
