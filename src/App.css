@@ -1,0 +1,50 @@
+.App{
+ 
+ align-items: center;
+ text-align: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+ 
+}
+.quotes{
+  background-color: antiquewhite;
+  border-bottom: 2px solid grey;
+  border-right: 2px solid grey;
+ width: 600px;
+ height: 200px;
+
+}
+.quoteText{
+  font-size: 1rem;
+  margin-bottom: .5rem;
+  display: flex;
+  justify-content: center;
+  margin: 0 1rem;
+  margin-top: 2rem;
+}
+
+.author{
+  display: flex;
+  justify-content: end;
+  padding-right: 2rem;
+  margin-bottom: 0.5rem;
+}
+.fa-quote-left{
+  font-size: 3rem;
+  padding-bottom: 20px;
+}
+.button{
+  border-radius: 100%;
+  border: none;
+  color: white;
+  padding: 1rem;
+ margin-left: 500px;
+ 
+}
+.button:hover{
+  box-shadow: 5px 5px 5px gray;
+ transform: translatey(-5px);
+  transition: 1s;
+}
