@@ -19,12 +19,13 @@
 
 }
 .quoteText{
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-bottom: .5rem;
   display: flex;
   justify-content: center;
   margin: 0 1rem;
   margin-top: 2rem;
+  text-shadow: .1em .1em .2em grey;
 }
 
 .author{
@@ -32,6 +33,7 @@
   justify-content: end;
   padding-right: 2rem;
   margin-bottom: 0.5rem;
+  text-shadow: .1em .1em .2em grey;
 }
 .fa-quote-left{
   font-size: 3rem;
