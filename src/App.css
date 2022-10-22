@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   height: 100vh;
+  
  
 }
 .quotes{
@@ -13,7 +14,7 @@
   border-bottom: 4px solid grey;
   border-right: 4px solid grey;
  width: 600px;
- height: 200px;
+ height: 250px;
  transition: .5s;
  box-shadow: 0px 0px 10px white ;
 
@@ -33,7 +34,7 @@
   justify-content: end;
   padding-right: 2rem;
   margin-bottom: 0.5rem;
-  text-shadow: .1em .1em .2em grey;
+  text-shadow: .1em .1em .2em rgb(37, 34, 34);
 }
 .fa-quote-left{
   font-size: 3rem;
@@ -44,7 +45,9 @@
   border: none;
   color: white;
   padding: 1rem;
+  margin-top: 2rem;
  margin-left: 500px;
+ 
 }
 .button:hover{
   box-shadow: 5px 5px 5px gray;
