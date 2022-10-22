@@ -42,11 +42,9 @@
 .button{
   border-radius: 100%;
   border: none;
-  color: white;
+  color: black;
   padding: 1rem;
  margin-left: 500px;
-
- 
 }
 .button:hover{
   box-shadow: 5px 5px 5px gray;
